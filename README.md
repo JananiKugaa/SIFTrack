@@ -13,23 +13,23 @@ Transformer Tracking using Optimized Information Flow
 
 ## Preparation
   - Download the pre-trained [MAE ViT-Base weights](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth) and place the file into the `pretrained_models` directory under OIFTrack project path.
-  - Download the training datasets ([LaSOT](http://vision.cs.stonybrook.edu/~lasot/download.html), [TrackingNet](https://github.com/SilvioGiancola/TrackingNet-devkit), [GOT-10k](http://got-10k.aitestunion.com/downloads), [COCO2017](https://cocodataset.org/#download)) and testing dataset ([UAV123](https://cemse.kaust.edu.sa/ivul/uav123)) to your disk.
+  - Download the training datasets ( [GOT-10k](http://got-10k.aitestunion.com/downloads), [TrackingNet](https://github.com/SilvioGiancola/TrackingNet-devkit), [LaSOT](http://vision.cs.stonybrook.edu/~lasot/download.html), [COCO2017](https://cocodataset.org/#download)) and testing dataset ([UAV123](https://cemse.kaust.edu.sa/ivul/uav123)) to your disk.
      
         Organized directory should look like:
 
           ```
-          --LaSOT/
-          	|--airplane-1
-          	|...
-          	|--zebra-20
-          --TrackingNet/
-          	|--TRAIN_0
-          	|...
-          	|--TEST
           --GOT10k/
           	|--test
           	|--train
           	|--val
+          --TrackingNet/
+          	|--TRAIN_0
+          	|...
+          	|--TEST
+          --LaSOT/
+          	|--airplane-1
+          	|...
+          	|--zebra-20
           --COCO/
           	|--annotations
           	|--images
