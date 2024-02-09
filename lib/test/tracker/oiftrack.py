@@ -50,7 +50,7 @@ class OIFTrack(BaseTracker):
         self.z_dict_list = []
         self.policy = []
         # Set the update interval
-        self.update_intervals = [40]
+        self.update_intervals = [10]
         self.num_extra_template = self.cfg.DATA.DYNAMIC.NUMBER
 
     def initialize(self, image, info: dict):
@@ -123,7 +123,7 @@ class OIFTrack(BaseTracker):
         self.state = clip_box(self.map_box_back(pred_box, resize_factor), H, W, margin=10)
 
         for idx, update_i in enumerate(self.update_intervals):
-            if self.frame_id % update_i == 0 and conf_score > 0.65:
+            if self.frame_id % update_i == 0 and conf_score > 0.5:
                 z_patch_arr2, _, z_amask_arr2 = sample_target(image, self.state, self.params.dynamic_factor,
                                                               output_sz=self.params.dynamic_size)
                 template_t = self.preprocessor.process(z_patch_arr2, z_amask_arr2)
