@@ -64,7 +64,7 @@ Transformer Tracking using Optimized Information Flow
 
 ## Evaluation
 
-- Make sure you have prepared the trained model or download the model weights from Google Drive (Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/oiftrack`)
+- Make sure you have prepared the trained model or download the model weights from [Google Drive](https://drive.google.com/drive/folders/1dkHhUgew8SxncIo-fMbRTf_BZH7bTHqF?usp=sharing) (Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/oiftrack`)
   - GOT10K-test
     ```
     python tracking/test.py oiftrack vitb_256_mae_ce_got10k --dataset got10k_test --threads 0 --num_gpus 1
