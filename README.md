@@ -75,7 +75,7 @@ Transformer Tracking using Optimized Information Flow
   - TrackingNet
     ```
     python tracking/test.py oiftrack vitb_256_mae_ce_all_dataset --dataset trackingnet --threads 0 --num_gpus 1
-    python lib/test/utils/transform_trackingnet.py --tracker_name oiftrack vitb_256_mae_ce_32x4_ep400
+    python lib/test/utils/transform_trackingnet.py --tracker_name oiftrack vitb_256_mae_ce_all_dataset
     ```
     Then upload `$PROJECT_ROOT$/output/test/tracking_results/oiftrack/vitb_256_mae_ce_all_dataset/trackingnet_submit.zip` to the [online evaluation server](https://eval.ai/web/challenges/challenge-page/1805/overview).
     
