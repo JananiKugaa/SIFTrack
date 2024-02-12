@@ -90,6 +90,4 @@ Transformer Tracking using Optimized Information Flow
     python tracking/test.py oiftrack vitb_256_mae_ce_all_dataset --dataset uav --threads 0 --num_gpus 1
     python tracking/analysis_results.py
     ```
-## Acknowledgement
 
-  Our concept is built upon the foundation laid by the following [OSTrack](https://github.com/botaoye/OSTrack) [[related paper](https://arxiv.org/abs/2203.11991)] project. We deeply value their outstanding contributions to open-source development!
