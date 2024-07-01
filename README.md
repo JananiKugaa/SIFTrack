@@ -1,4 +1,4 @@
-# OIFTrack
+# SIFTrack
 Transformer Tracking using Optimized Information Flow
 
 [[Models](https://drive.google.com/drive/folders/1dkHhUgew8SxncIo-fMbRTf_BZH7bTHqF?usp=sharing)][[Raw Results](https://drive.google.com/drive/folders/1HnIBMin7mnVrTmAvpkrhqo1befije315?usp=sharing)]
