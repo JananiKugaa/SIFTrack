@@ -1,5 +1,5 @@
 # SIFTrack
-Selective Information Flow for Transformer Tracking
+[Selective Information Flow for Transformer Tracking](https://www.sciencedirect.com/science/article/pii/S0957417424022486)
 
 [[Models](https://drive.google.com/drive/folders/1dkHhUgew8SxncIo-fMbRTf_BZH7bTHqF?usp=sharing)][[Raw Results](https://drive.google.com/drive/folders/1HnIBMin7mnVrTmAvpkrhqo1befije315?usp=sharing)]
 
@@ -90,4 +90,22 @@ Selective Information Flow for Transformer Tracking
     python tracking/test.py siftrack vitb_256_mae_ce_all_dataset --dataset uav --threads 0 --num_gpus 1
     python tracking/analysis_results.py
     ```
+## Acknowledgments
+* Our work is implemented using [OSTrack](https://github.com/botaoye/OSTrack). Thanks for their excellent open-source works
+
+## Citation
+If our paper or code contributes to your research, please consider citing our work:
+
+```Bibtex
+@article{KUGARAJEEVAN2025125381,
+title = {Selective Information Flow for Transformer Tracking},
+author = {Janani Kugarajeevan and Kokul Thanikasalam and Amirthalingam Ramanan and Subha Fernando},
+journal = {Expert Systems with Applications},
+volume = {259},
+pages = {125381},
+year = {2025},
+doi = {https://doi.org/10.1016/j.eswa.2024.125381},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417424022486}
+}
+```
 
